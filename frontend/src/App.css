@@ -1,0 +1,67 @@
+/* frontend/src/App.css (add to existing content) */
+.profile-picture {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    border: 2px solid #61dafb;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.error-message {
+    color: #ff6347; /* Tomato red for errors */
+    font-weight: bold;
+}
+/* frontend/src/App.css (add to existing content) */
+.dashboard-container {
+    text-align: center;
+    background-color: #333;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto; /* Center with some margin */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard-container h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #61dafb;
+}
+
+.dashboard-container p {
+    font-size: 1.1em;
+    color: #ccc;
+}
+
+.dashboard-features ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.dashboard-features li {
+    background-color: #444;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}

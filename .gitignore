@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+.ipynb_checkpoints
+.pytest_cache/
+pip-log.txt
+pip-delete-this-arg.txt
+
+# Node.js
+node_modules/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+# production
+build/
+dist/
+
+# OS and Editor Specific
+.DS_Store
+.env
+.vscode/ # You might want to include this if you have specific team settings, but for a solo project, you can exclude it.
+# VS Code specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# Local History for VS Code
+.history/
+
+# Database
+data/db/ # MongoDB default data directory
+chroma.sqlite3 # ChromaDB default single file
+.chroma/ # ChromaDB default directory for persistent client
